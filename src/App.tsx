@@ -1,10 +1,12 @@
 import RightSideNav from "./components/RightSideNav";
+import SectionCP from "./SectionCP";
 
 function App() {
   return (
-    <main>
+    <>
       <RightSideNav />
-    </main>
+      <SectionCP />
+    </>
   );
 }
 

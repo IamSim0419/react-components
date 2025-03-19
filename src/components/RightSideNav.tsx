@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Button from "./Button";
 
 const RightSideNav: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +44,7 @@ const RightSideNav: React.FC = () => {
           {/* Mobile Menu Icons */}
           <div className="flex items-center gap-4">
             <span className="text-xl cursor-pointer md:block hidden">
-              Search
+              <Button variant="secondary">Login</Button>
             </span>
             <span
               className="text-3xl cursor-pointer md:hidden block"
